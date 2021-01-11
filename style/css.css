@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #00171f;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+    padding: 35px 0;
+    max-width: 800px;
+    color: #fff;
+}
+
+header{
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+#page-title{
+    color: #fe6d73;
+    font-size: 2.2rem;
+}
+.name{
+    background-color: #000;
+    color: #fff;
+    padding: 0 .3em;
+   
+    
+}
+.favorite-section p{
+    color: #935e38;
+}
+#favorite-movie-title{
+    font-style: italic;
+    color: #c7f9cc;
+}
+#favorite-music-artist-name{
+    color: #a1c181;
+    font-weight: bold;
+}
+
+
+#most-favorite-food{
+    color: #b8b08d;
+    text-decoration: underline;
+}
+
+.favorite-section{
+    padding-top: .7rem;
+    border-bottom: #fff;
+}
+
+.section-header {
+    padding: .5rem 0;
+    font-size: 1.7em;
+    color: #c7f9cc;
+}
+.favorite-section a, li{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+
+.favorite-image{
+    width: 100%;
+    padding-bottom: 1.5rem;
+    opacity: 0.5;
+    border-radius: 25px;
+}
+.favorite-image:hover{
+    opacity: 1;
+
+}
+table{
+    border: 2px solid #fff;
+    padding: .7em;
+    text-align: center;
+    color: #fff;
+}
+th{
+    color: #b97375;
+    padding-bottom: .4em;
+    text-decoration: underline;
+    line-height: 0.8em;
+   
+}
+td{
+    color: #c5c3c6;
+}
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 1.7rem;
+    text-align: center;
+   
+}
+a:hover{
+    color: #c7f9cc;
+}
+
+hr{
+    padding: .4rem;
+    background-color: #fff;
+}
+
